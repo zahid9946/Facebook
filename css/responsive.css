@@ -1,0 +1,153 @@
+
+@media all and (max-width : 1204px){
+    header .logo {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .center .right .date-a {
+       display: block;
+    }
+    header .logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    header .right .input {
+        width: 40%;
+        margin-right: 5px;
+    }
+    header .right {
+        width: 360px;
+        margin: auto;
+    }
+    
+@media all and (max-width : 888px){
+    .center .left h2 {
+        font-size: 20px;
+    }
+    .center .left .item p{
+        font-size: 14px;
+    }
+    footer ul li a {
+        font-size: 9px;
+    }
+    .center .right .last {
+        font-size: 12px;
+    }
+    .right>p{
+        font-size: 12px;
+    }
+    .center .right h1 {
+        font-size: 25px;
+    }
+}
+@media all and (max-width : 715px){
+    .midel{
+        width: 95%;
+    }
+    .center .left h2 {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .center .left .item p{
+        font-size: 11px;
+    }
+    .center .left .item{
+        
+        margin-right: 5px;
+    }
+    .center .left .item img{
+        width: 50px;
+    }
+    .center .left {
+        width: 40%;
+    }
+    .center .right {
+        width: 56%;
+    }
+    .center .right a:last-child,.center .right span{
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+}
+@media all and (max-width : 562px) {
+    .center .left h2 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .center .left .item p {
+        font-size: 9px;
+    }
+    .center .left .item img {
+        width: 30px;
+    }
+    .center .left .item p {
+        margin-top: 0;
+    }
+    .center .left {
+        width: 40%;
+        margin-right: 10px;
+    }
+    .center .right h2 {
+        font-size: 20px;
+    }
+    footer ul li a {
+        padding: 1px;
+    }
+}
+@media all and (max-width : 462px) {
+    .center .left h2 {
+        width: 100%;
+        font-size: 11px;
+    }
+    .center .right a:last-child, .center .right span {
+        font-size: 9px;
+    }
+    header .right .input input[type="text"], header .right .input input[type="password"] {
+        margin: 3px 0;
+        padding: 2px;
+         width: 100%;
+        border: 1px solid black;
+    }
+    header .right .input a, header .right .input label:nth-child(2) {
+        font-size: 10px;
+    }
+    header .right .input label {
+        font-size: 10px;
+    }
+    header .right .input {
+        width: 40%;
+    }
+    .center .right .date-a {
+        font-size: 9px;
+    }
+    
+}
+
+@media all and (max-width : 390px){
+    .center .right select {
+        padding: 0;
+        border: 1px solid black;
+        margin-bottom: 5px;
+    }
+    .center .right .name {
+        margin: 5px 0 0;
+        padding: 4px 0;
+    }
+    .center .right .block {
+        margin: 5px 0;
+        padding: 4px 0;
+    }
+    header .right .input-2 {
+        float: left;
+        overflow: hidden;
+        display: block;
+        width: 88%;
+        text-align: center;
+    }
+    header .right .input-2 input {
+        margin-top: 10px;
+    }
+}
